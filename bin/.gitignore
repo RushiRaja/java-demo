@@ -1,0 +1,55 @@
+#
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Apple
+.DS_Store
+
+# Eclipse
+.settings/
+.classpath
+.factorypath
+.project
+
+# IntelliJ 
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Maven 
+target/
+
+# Misc
+*.swp
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Node
+package-lock.json
+
+# Visual Studio Code
+.vscode
+/.springBeans
