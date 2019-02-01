@@ -16,6 +16,11 @@ public class TestThreadDemo {
 		// Here the main thread creates a child thread. Which means the main thread starts a child thread. 
 		t1.start();
 		
+		// Example shows the example to show that new thread will not will be created. if we call the t1.run
+		// Comment the t1.start() and uncomment t1.run() to see the magic
+		
+		t1.run();
+		
 		for(int i=0; i<=10; i++){
 		System.out.println("This is executed by the Main ");
 		}
