@@ -8,7 +8,7 @@ package com.project.multithreadingdemo;
 class MydemoSetGetName extends Thread{
 	
 	public void run() {
-		System.out.println("Child Thread");
+		System.out.println("run Thread is execure by "+ Thread.currentThread().getName());
 	}
 }
 public class MyThreadSetAndGetName {
@@ -17,6 +17,7 @@ public class MyThreadSetAndGetName {
 
 		System.out.println(Thread.currentThread().getName());
 		
+		System.out.println("main Thread is execure by "+ Thread.currentThread().getName());
 		MydemoSetGetName t = new MydemoSetGetName();
 		t.start();
 		
@@ -28,7 +29,6 @@ public class MyThreadSetAndGetName {
 		System.out.println(Thread.currentThread().getName());
 		
 		System.out.println(t.getName());
-		
 	}
 
 }
